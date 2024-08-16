@@ -52,7 +52,7 @@ function Signup() {
 
     if (validateForm()) {
       axios
-        .post('http://localhost:8000/register', { name, email, password })
+        .post('https://todo-frontend-i1de.onrender.com/register', { name, email, password })
         .then((res) => {
           console.log(res);
           navigate('/login');
