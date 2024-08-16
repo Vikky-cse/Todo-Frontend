@@ -1,0 +1,21 @@
+.out {
+    display: flex;
+  }
+  .in-input{
+    width: 90%;
+  }
+  .in-button{
+    margin-left: 10px;
+  }
+  .in-button button{
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    background-color: #6c6777;
+
+  }
+  
+  
